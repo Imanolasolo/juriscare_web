@@ -50,6 +50,15 @@ st.markdown("""
 - **Email**: jjusturi@gmail.com
 """)
 
+st.success("Aquí puedes ver un ejemplo de como son los chats que creamos")
+# Crear un botón en Streamlit
+if st.button('Ver ejemplo de chat'):
+    # Mostrar un enlace para redirigir al usuario
+    st.markdown(
+        '<a href="https://ai-juriscare-chat.streamlit.app/" target="_blank">Visitar JurisCare Chat',
+        unsafe_allow_html=True
+    )
+
 # Pie de página
 st.markdown("---")
 st.markdown("© 2024 AI JurisCare. Todos los derechos reservados.")
